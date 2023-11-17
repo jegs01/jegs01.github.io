@@ -1,0 +1,69 @@
+body {background-color: burlywood;}
+hr {border-style: dotted none none;
+        border-color: grey;
+        border-width: 5px;
+        width: 5%;
+    }
+h1 {color: red;}
+h3 {color: royalblue;}
+
+img {
+    border-radius: 30%;
+    width: 50px;
+    @media screen and (min-width: 768px) {
+        border-radius: 30%;
+        width: auto;    
+    }
+}
+/* id tags */
+#edu {
+    position: relative;
+    margin: 0, auto;
+    text-align: center;
+}
+/* Class tags */
+.contact {
+    text-align: center;
+}
+
+.edu-table {
+    @media screen and (min-width: 768px) {
+        border: 1px;
+        margin-left: 200px;
+        margin-right: auto;
+    }
+}
+
+.foot {
+    position: relative;
+    margin: 0, auto;
+    text-align: center;
+    padding-top: 100px
+}
+.footer-table {
+    @media screen and (min-width: 320px) {
+        margin-left: 50px;
+        margin-right: auto;
+        border-spacing: 20px;
+    }
+    @media screen and (min-width: 768px) {
+        border: 1px;
+        margin-left: 350px;
+        margin-right: auto;
+        border-spacing: 20px;
+    }
+}
+
+.skill-table {
+    @media screen and (min-width: 768px) {
+        border: 1px;
+        margin-left: 200px;
+        margin-right: auto;
+    }
+}
+
+.skill {
+    position: relative;
+    margin: 0, auto;
+    text-align: center
+}
