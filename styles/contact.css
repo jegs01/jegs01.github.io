@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #007bff;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -69,6 +69,16 @@ h3 {
     text-align: center;
     margin-top: 20px;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFD700;
+}
+
 
 footer {
     background-color: #343a40;

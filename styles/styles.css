@@ -61,6 +61,23 @@ td, th {
     font-size: 20px;
 }
 
+a {
+    color: #39FF14;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+a h1, a p, a em, a strong {
+    color: white;
+}
+
+a:hover h1, a:hover p, a:hover em, a:hover strong {
+    color: #FFD700;
+}
+
 .foot {
     background-color: #333;
     color: #aaa;
